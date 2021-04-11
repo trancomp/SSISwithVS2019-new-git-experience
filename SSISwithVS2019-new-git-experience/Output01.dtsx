@@ -5,14 +5,14 @@
   DTS:CreationName="Microsoft.Package"
   DTS:CreatorComputerName="TTRANRYZEN7"
   DTS:CreatorName="TTRANRYZEN7\tranc"
-  DTS:DTSID="{EB273523-0EDC-417E-9578-7F822CEF0CDA}"
+  DTS:DTSID="{86022A21-A6A5-4585-85B6-AA47221F3956}"
   DTS:ExecutableType="Microsoft.Package"
   DTS:LastModifiedProductVersion="15.0.2000.132"
   DTS:LocaleID="4105"
-  DTS:ObjectName="Package"
+  DTS:ObjectName="Output01"
   DTS:PackageType="5"
-  DTS:VersionBuild="1"
-  DTS:VersionGUID="{52B844E0-86C3-4D18-B5AC-343CEE001833}">
+  DTS:VersionBuild="2"
+  DTS:VersionGUID="{481BD0A8-3DD3-48B3-BA1D-4B96369B817E}">
   <DTS:Property
     DTS:Name="PackageFormatVersion">8</DTS:Property>
   <DTS:ConnectionManagers>
