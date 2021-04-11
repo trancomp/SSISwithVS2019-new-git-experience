@@ -11,8 +11,8 @@
   DTS:LocaleID="4105"
   DTS:ObjectName="Output01"
   DTS:PackageType="5"
-  DTS:VersionBuild="2"
-  DTS:VersionGUID="{481BD0A8-3DD3-48B3-BA1D-4B96369B817E}">
+  DTS:VersionBuild="3"
+  DTS:VersionGUID="{976C3708-7F04-4E76-AA8C-226CE644CFED}">
   <DTS:Property
     DTS:Name="PackageFormatVersion">8</DTS:Property>
   <DTS:ConnectionManagers>
@@ -68,16 +68,6 @@
               DTS:CreationName="" />
           </DTS:FlatFileColumns>
         </DTS:ConnectionManager>
-      </DTS:ObjectData>
-    </DTS:ConnectionManager>
-    <DTS:ConnectionManager
-      DTS:refId="Package.ConnectionManagers[LocalHost.School]"
-      DTS:CreationName="OLEDB"
-      DTS:DTSID="{3C751D47-6AE6-49E2-B313-144928A82E5F}"
-      DTS:ObjectName="LocalHost.School">
-      <DTS:ObjectData>
-        <DTS:ConnectionManager
-          DTS:ConnectionString="Data Source=.;Initial Catalog=School;Provider=MSOLEDBSQL.1;Integrated Security=SSPI;Auto Translate=False;" />
       </DTS:ObjectData>
     </DTS:ConnectionManager>
   </DTS:ConnectionManagers>
@@ -239,8 +229,8 @@
               <connections>
                 <connection
                   refId="Package\Data Flow Task\OLE DB Source.Connections[OleDbConnection]"
-                  connectionManagerID="Package.ConnectionManagers[LocalHost.School]"
-                  connectionManagerRefId="Package.ConnectionManagers[LocalHost.School]"
+                  connectionManagerID="{3C751D47-6AE6-49E2-B313-144928A82E5F}:external"
+                  connectionManagerRefId="Project.ConnectionManagers[LocalHost.School]"
                   description="The OLE DB runtime connection used to access the database."
                   name="OleDbConnection" />
               </connections>
